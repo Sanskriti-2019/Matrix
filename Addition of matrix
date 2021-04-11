@@ -1,0 +1,24 @@
+public class addMatrix{
+    public static void main(String[] args){
+        int[][] a={{1,3,4},{2,4,3},{1,2,4}
+        int[][] b={{1,3,4},{2,4,3},{1,2,4}}
+        int[][] sum=new int[3][3];
+        int i,j;
+    }
+                for(i=0;i<x.length;i++){
+                    for(j=0;j<x[0].length;j++){
+                        sum[i][j] = a[i][j] + b[i][j];
+                    }
+                    System.out.println("Addition of two matrices");
+                    for(i=0;i<x.length;i++)
+                    {
+                        for(j=0;j<x[0].length;j++)
+                        {
+                            System.out.format("%d\t", sum[i][j]);
+                        }
+                        System.out.println(" ");
+                    }
+                }
+    }
+    
+}
